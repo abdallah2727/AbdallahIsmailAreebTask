@@ -21,8 +21,7 @@ extension GetReposdetailsVM :getDetailsProtocol
     func getDetail() {
         RepoDetailNetworkService.repositryfetchData(url:repossUrl, handlerComplition: { result in
             self.reposResults =  result
-            print ( self.repossUrl )
-            print ("suiii")
+
         })
     
     }

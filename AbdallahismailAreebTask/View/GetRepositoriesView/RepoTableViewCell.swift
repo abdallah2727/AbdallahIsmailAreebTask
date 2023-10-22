@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import Kingfisher
 class RepoTableViewCell: UITableViewCell {
 
     @IBOutlet weak var ownerImage: UIImageView!
@@ -14,16 +14,23 @@ class RepoTableViewCell: UITableViewCell {
     @IBOutlet weak var ownerName: UILabel!
     
     @IBOutlet weak var repoName: UILabel!
+
+
+}
+
+extension RepoTableViewCell {
+    func setcell (ownerNamee:String,repoNamee:String,ownerImagee:String)
+    {
+        ownerName.text = ownerNamee
+        repoName.text = repoNamee
+        ownerImage.layer.cornerRadius = self.ownerImage.frame.size.width / 2
+        ownerImage.clipsToBounds = true
+
+        ownerImage.layer.borderColor = UIColor.white.cgColor
+
+        ownerImage.layer.borderWidth = 1
+        ownerImage.kf.setImage(with:URL( string: ownerImagee))
+        
+    }
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

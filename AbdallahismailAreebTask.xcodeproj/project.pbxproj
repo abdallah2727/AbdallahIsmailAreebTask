@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28D122B1B8B0147584FF78B1 /* libPods-AbdallahismailAreebTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DDCDB091C85FC3B37228D4 /* libPods-AbdallahismailAreebTask.a */; };
 		5E1632C02AE2071900885F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1632BF2AE2071900885F97 /* AppDelegate.swift */; };
 		5E1632C22AE2071900885F97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1632C12AE2071900885F97 /* SceneDelegate.swift */; };
-		5E1632C42AE2071900885F97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1632C32AE2071900885F97 /* ViewController.swift */; };
+		5E1632C42AE2071900885F97 /* GetReposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1632C32AE2071900885F97 /* GetReposViewController.swift */; };
 		5E1632C72AE2071900885F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1632C52AE2071900885F97 /* Main.storyboard */; };
 		5E1632CA2AE2071900885F97 /* AbdallahismailAreebTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E1632C82AE2071900885F97 /* AbdallahismailAreebTask.xcdatamodeld */; };
 		5E1632CC2AE2071900885F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1632CB2AE2071900885F97 /* Assets.xcassets */; };
@@ -17,6 +18,19 @@
 		5E1632DA2AE2071A00885F97 /* AbdallahismailAreebTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1632D92AE2071A00885F97 /* AbdallahismailAreebTaskTests.swift */; };
 		5E1632E42AE2071A00885F97 /* AbdallahismailAreebTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1632E32AE2071A00885F97 /* AbdallahismailAreebTaskUITests.swift */; };
 		5E1632E62AE2071A00885F97 /* AbdallahismailAreebTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1632E52AE2071A00885F97 /* AbdallahismailAreebTaskUITestsLaunchTests.swift */; };
+		5E70B7CE2AE485BC00F086B0 /* RepoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B7CD2AE485BC00F086B0 /* RepoDetailsViewController.swift */; };
+		5E70B7D02AE49DE500F086B0 /* RepoDetailNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B7CF2AE49DE500F086B0 /* RepoDetailNetworkService.swift */; };
+		5E70B7D22AE4B14900F086B0 /* GetReposdetailsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B7D12AE4B14900F086B0 /* GetReposdetailsVM.swift */; };
+		5E70B7D42AE4B1D000F086B0 /* getDetailsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70B7D32AE4B1D000F086B0 /* getDetailsProtocol.swift */; };
+		5E8FDAD42AE3178100CDF419 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FDAD32AE3178100CDF419 /* RepoTableViewCell.swift */; };
+		5E8FDAD62AE3256C00CDF419 /* Repost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FDAD52AE3256C00CDF419 /* Repost.swift */; };
+		5E8FDADB2AE3322100CDF419 /* UrlService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FDADA2AE3322100CDF419 /* UrlService.swift */; };
+		5E8FDADE2AE35A2300CDF419 /* RepositryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FDADD2AE35A2300CDF419 /* RepositryProtocol.swift */; };
+		5E8FDAE02AE35B0800CDF419 /* GetReposVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FDADF2AE35B0800CDF419 /* GetReposVM.swift */; };
+		5E8FDAE32AE35CD400CDF419 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FDAE22AE35CD400CDF419 /* NetworkService.swift */; };
+		5E8FDAE52AE35D7A00CDF419 /* getReposProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8FDAE42AE35D7A00CDF419 /* getReposProtocol.swift */; };
+		7BEE83BE1486D7613B6C17C3 /* libPods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F3D39B67C4D70BD6D718AA /* libPods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.a */; };
+		DA0E0B23E2CF2A2C10FB65FD /* libPods-AbdallahismailAreebTaskTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3E33207033F603DC7BE0A9 /* libPods-AbdallahismailAreebTaskTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C1A6B07A191DB89A6E5AFE8 /* Pods-AbdallahismailAreebTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbdallahismailAreebTask.release.xcconfig"; path = "Target Support Files/Pods-AbdallahismailAreebTask/Pods-AbdallahismailAreebTask.release.xcconfig"; sourceTree = "<group>"; };
+		2C3E33207033F603DC7BE0A9 /* libPods-AbdallahismailAreebTaskTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AbdallahismailAreebTaskTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3222F713D6FBB9261216CB34 /* Pods-AbdallahismailAreebTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbdallahismailAreebTask.debug.xcconfig"; path = "Target Support Files/Pods-AbdallahismailAreebTask/Pods-AbdallahismailAreebTask.debug.xcconfig"; sourceTree = "<group>"; };
+		53264ACFC14EDED2FF9B3C4A /* Pods-AbdallahismailAreebTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbdallahismailAreebTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-AbdallahismailAreebTaskTests/Pods-AbdallahismailAreebTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E1632BC2AE2071900885F97 /* AbdallahismailAreebTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbdallahismailAreebTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1632BF2AE2071900885F97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E1632C12AE2071900885F97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E1632C32AE2071900885F97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E1632C32AE2071900885F97 /* GetReposViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetReposViewController.swift; sourceTree = "<group>"; };
 		5E1632C62AE2071900885F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E1632C92AE2071900885F97 /* AbdallahismailAreebTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AbdallahismailAreebTask.xcdatamodel; sourceTree = "<group>"; };
 		5E1632CB2AE2071900885F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +69,22 @@
 		5E1632DF2AE2071A00885F97 /* AbdallahismailAreebTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbdallahismailAreebTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1632E32AE2071A00885F97 /* AbdallahismailAreebTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbdallahismailAreebTaskUITests.swift; sourceTree = "<group>"; };
 		5E1632E52AE2071A00885F97 /* AbdallahismailAreebTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbdallahismailAreebTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E70B7CD2AE485BC00F086B0 /* RepoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsViewController.swift; sourceTree = "<group>"; };
+		5E70B7CF2AE49DE500F086B0 /* RepoDetailNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailNetworkService.swift; sourceTree = "<group>"; };
+		5E70B7D12AE4B14900F086B0 /* GetReposdetailsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetReposdetailsVM.swift; sourceTree = "<group>"; };
+		5E70B7D32AE4B1D000F086B0 /* getDetailsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getDetailsProtocol.swift; sourceTree = "<group>"; };
+		5E8FDAD32AE3178100CDF419 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		5E8FDAD52AE3256C00CDF419 /* Repost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repost.swift; sourceTree = "<group>"; };
+		5E8FDADA2AE3322100CDF419 /* UrlService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlService.swift; sourceTree = "<group>"; };
+		5E8FDADD2AE35A2300CDF419 /* RepositryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositryProtocol.swift; sourceTree = "<group>"; };
+		5E8FDADF2AE35B0800CDF419 /* GetReposVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetReposVM.swift; sourceTree = "<group>"; };
+		5E8FDAE22AE35CD400CDF419 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5E8FDAE42AE35D7A00CDF419 /* getReposProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getReposProtocol.swift; sourceTree = "<group>"; };
+		A0DDCDB091C85FC3B37228D4 /* libPods-AbdallahismailAreebTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AbdallahismailAreebTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A416363A5E698A4BE4FD0AE9 /* Pods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests/Pods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E56C848F5F2DCA66A2E5B8EC /* Pods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests/Pods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F3F3D39B67C4D70BD6D718AA /* libPods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF672FC0CA2B466F43FEC92D /* Pods-AbdallahismailAreebTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbdallahismailAreebTaskTests.release.xcconfig"; path = "Target Support Files/Pods-AbdallahismailAreebTaskTests/Pods-AbdallahismailAreebTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D122B1B8B0147584FF78B1 /* libPods-AbdallahismailAreebTask.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA0E0B23E2CF2A2C10FB65FD /* libPods-AbdallahismailAreebTaskTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +108,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BEE83BE1486D7613B6C17C3 /* libPods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EE737418B656917BF1294F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E1632E22AE2071A00885F97 /* AbdallahismailAreebTaskUITests */,
+				A0DDCDB091C85FC3B37228D4 /* libPods-AbdallahismailAreebTask.a */,
+				F3F3D39B67C4D70BD6D718AA /* libPods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.a */,
+				2C3E33207033F603DC7BE0A9 /* libPods-AbdallahismailAreebTaskTests.a */,
+				5E1632D82AE2071A00885F97 /* AbdallahismailAreebTaskTests */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5E1632B32AE2071800885F97 = {
 			isa = PBXGroup;
 			children = (
 				5E1632BE2AE2071900885F97 /* AbdallahismailAreebTask */,
-				5E1632D82AE2071A00885F97 /* AbdallahismailAreebTaskTests */,
-				5E1632E22AE2071A00885F97 /* AbdallahismailAreebTaskUITests */,
 				5E1632BD2AE2071900885F97 /* Products */,
+				D4BA442F8E5BEABA18EA38F7 /* Pods */,
+				0EE737418B656917BF1294F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +150,13 @@
 		5E1632BE2AE2071900885F97 /* AbdallahismailAreebTask */ = {
 			isa = PBXGroup;
 			children = (
-				5E1632BF2AE2071900885F97 /* AppDelegate.swift */,
-				5E1632C12AE2071900885F97 /* SceneDelegate.swift */,
-				5E1632C32AE2071900885F97 /* ViewController.swift */,
-				5E1632C52AE2071900885F97 /* Main.storyboard */,
-				5E1632CB2AE2071900885F97 /* Assets.xcassets */,
-				5E1632CD2AE2071900885F97 /* LaunchScreen.storyboard */,
 				5E1632D02AE2071900885F97 /* Info.plist */,
-				5E1632C82AE2071900885F97 /* AbdallahismailAreebTask.xcdatamodeld */,
+				5E8FDAE12AE35CA000CDF419 /* Networkservices */,
+				5E8FDADC2AE35A0000CDF419 /* Contracts */,
+				5E8FDAD72AE3319800CDF419 /* Common */,
+				5E1632F22AE2072800885F97 /* Model */,
+				5E1632F32AE2073A00885F97 /* View */,
+				5E1632F42AE2075800885F97 /* ViewModel */,
 			);
 			path = AbdallahismailAreebTask;
 			sourceTree = "<group>";
@@ -130,6 +178,127 @@
 			path = AbdallahismailAreebTaskUITests;
 			sourceTree = "<group>";
 		};
+		5E1632F22AE2072800885F97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FDAD52AE3256C00CDF419 /* Repost.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E1632F32AE2073A00885F97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5ED156D62AE4EDFD006600CD /* RepoDetailsView */,
+				5E8FDAD22AE316E400CDF419 /* GetRepositoriesView */,
+				5E1632CD2AE2071900885F97 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E1632F42AE2075800885F97 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5ED156D82AE4EFF3006600CD /* GetReposDetails */,
+				5ED156D72AE4EFB4006600CD /* GetAllRepos */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5E8FDAD22AE316E400CDF419 /* GetRepositoriesView */ = {
+			isa = PBXGroup;
+			children = (
+				5E1632C52AE2071900885F97 /* Main.storyboard */,
+				5E1632C32AE2071900885F97 /* GetReposViewController.swift */,
+				5E8FDAD32AE3178100CDF419 /* RepoTableViewCell.swift */,
+			);
+			path = GetRepositoriesView;
+			sourceTree = "<group>";
+		};
+		5E8FDAD72AE3319800CDF419 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FDAD92AE331E700CDF419 /* Constants */,
+				5E8FDAD82AE331A000CDF419 /* utilties */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5E8FDAD82AE331A000CDF419 /* utilties */ = {
+			isa = PBXGroup;
+			children = (
+				5E1632BF2AE2071900885F97 /* AppDelegate.swift */,
+				5E1632C12AE2071900885F97 /* SceneDelegate.swift */,
+				5E1632CB2AE2071900885F97 /* Assets.xcassets */,
+				5E1632C82AE2071900885F97 /* AbdallahismailAreebTask.xcdatamodeld */,
+			);
+			path = utilties;
+			sourceTree = "<group>";
+		};
+		5E8FDAD92AE331E700CDF419 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FDADA2AE3322100CDF419 /* UrlService.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		5E8FDADC2AE35A0000CDF419 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FDADD2AE35A2300CDF419 /* RepositryProtocol.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		5E8FDAE12AE35CA000CDF419 /* Networkservices */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FDAE22AE35CD400CDF419 /* NetworkService.swift */,
+				5E70B7CF2AE49DE500F086B0 /* RepoDetailNetworkService.swift */,
+			);
+			path = Networkservices;
+			sourceTree = "<group>";
+		};
+		5ED156D62AE4EDFD006600CD /* RepoDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				5E70B7CD2AE485BC00F086B0 /* RepoDetailsViewController.swift */,
+			);
+			path = RepoDetailsView;
+			sourceTree = "<group>";
+		};
+		5ED156D72AE4EFB4006600CD /* GetAllRepos */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FDAE42AE35D7A00CDF419 /* getReposProtocol.swift */,
+				5E8FDADF2AE35B0800CDF419 /* GetReposVM.swift */,
+			);
+			path = GetAllRepos;
+			sourceTree = "<group>";
+		};
+		5ED156D82AE4EFF3006600CD /* GetReposDetails */ = {
+			isa = PBXGroup;
+			children = (
+				5E70B7D12AE4B14900F086B0 /* GetReposdetailsVM.swift */,
+				5E70B7D32AE4B1D000F086B0 /* getDetailsProtocol.swift */,
+			);
+			path = GetReposDetails;
+			sourceTree = "<group>";
+		};
+		D4BA442F8E5BEABA18EA38F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3222F713D6FBB9261216CB34 /* Pods-AbdallahismailAreebTask.debug.xcconfig */,
+				1C1A6B07A191DB89A6E5AFE8 /* Pods-AbdallahismailAreebTask.release.xcconfig */,
+				A416363A5E698A4BE4FD0AE9 /* Pods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.debug.xcconfig */,
+				E56C848F5F2DCA66A2E5B8EC /* Pods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.release.xcconfig */,
+				53264ACFC14EDED2FF9B3C4A /* Pods-AbdallahismailAreebTaskTests.debug.xcconfig */,
+				FF672FC0CA2B466F43FEC92D /* Pods-AbdallahismailAreebTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +306,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E1632E92AE2071A00885F97 /* Build configuration list for PBXNativeTarget "AbdallahismailAreebTask" */;
 			buildPhases = (
+				6C59483B57AABAFF8692978E /* [CP] Check Pods Manifest.lock */,
 				5E1632B82AE2071800885F97 /* Sources */,
 				5E1632B92AE2071800885F97 /* Frameworks */,
 				5E1632BA2AE2071800885F97 /* Resources */,
@@ -154,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E1632EC2AE2071A00885F97 /* Build configuration list for PBXNativeTarget "AbdallahismailAreebTaskTests" */;
 			buildPhases = (
+				1C5FBBE0F1B25C0D8324D42F /* [CP] Check Pods Manifest.lock */,
 				5E1632D12AE2071A00885F97 /* Sources */,
 				5E1632D22AE2071A00885F97 /* Frameworks */,
 				5E1632D32AE2071A00885F97 /* Resources */,
@@ -172,6 +343,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E1632EF2AE2071A00885F97 /* Build configuration list for PBXNativeTarget "AbdallahismailAreebTaskUITests" */;
 			buildPhases = (
+				C739B3688C8A0AC7D6DA48B0 /* [CP] Check Pods Manifest.lock */,
 				5E1632DB2AE2071A00885F97 /* Sources */,
 				5E1632DC2AE2071A00885F97 /* Frameworks */,
 				5E1632DD2AE2071A00885F97 /* Resources */,
@@ -256,15 +428,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C5FBBE0F1B25C0D8324D42F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbdallahismailAreebTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C59483B57AABAFF8692978E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbdallahismailAreebTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C739B3688C8A0AC7D6DA48B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E1632B82AE2071800885F97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E1632C42AE2071900885F97 /* ViewController.swift in Sources */,
+				5E8FDAE32AE35CD400CDF419 /* NetworkService.swift in Sources */,
+				5E70B7CE2AE485BC00F086B0 /* RepoDetailsViewController.swift in Sources */,
+				5E70B7D02AE49DE500F086B0 /* RepoDetailNetworkService.swift in Sources */,
+				5E8FDADE2AE35A2300CDF419 /* RepositryProtocol.swift in Sources */,
+				5E1632C42AE2071900885F97 /* GetReposViewController.swift in Sources */,
+				5E8FDAE52AE35D7A00CDF419 /* getReposProtocol.swift in Sources */,
 				5E1632C02AE2071900885F97 /* AppDelegate.swift in Sources */,
+				5E70B7D42AE4B1D000F086B0 /* getDetailsProtocol.swift in Sources */,
 				5E1632CA2AE2071900885F97 /* AbdallahismailAreebTask.xcdatamodeld in Sources */,
+				5E8FDAD42AE3178100CDF419 /* RepoTableViewCell.swift in Sources */,
 				5E1632C22AE2071900885F97 /* SceneDelegate.swift in Sources */,
+				5E8FDADB2AE3322100CDF419 /* UrlService.swift in Sources */,
+				5E8FDAE02AE35B0800CDF419 /* GetReposVM.swift in Sources */,
+				5E70B7D22AE4B14900F086B0 /* GetReposdetailsVM.swift in Sources */,
+				5E8FDAD62AE3256C00CDF419 /* Repost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +688,7 @@
 		};
 		5E1632EA2AE2071A00885F97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3222F713D6FBB9261216CB34 /* Pods-AbdallahismailAreebTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -463,6 +716,7 @@
 		};
 		5E1632EB2AE2071A00885F97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1A6B07A191DB89A6E5AFE8 /* Pods-AbdallahismailAreebTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +744,7 @@
 		};
 		5E1632ED2AE2071A00885F97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53264ACFC14EDED2FF9B3C4A /* Pods-AbdallahismailAreebTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +764,7 @@
 		};
 		5E1632EE2AE2071A00885F97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF672FC0CA2B466F43FEC92D /* Pods-AbdallahismailAreebTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +784,7 @@
 		};
 		5E1632F02AE2071A00885F97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A416363A5E698A4BE4FD0AE9 /* Pods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +802,7 @@
 		};
 		5E1632F12AE2071A00885F97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56C848F5F2DCA66A2E5B8EC /* Pods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

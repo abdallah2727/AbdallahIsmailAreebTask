@@ -1,0 +1,6 @@
+module Pods_AbdallahismailAreebTask_AbdallahismailAreebTaskUITests {
+  umbrella header "Pods-AbdallahismailAreebTask-AbdallahismailAreebTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

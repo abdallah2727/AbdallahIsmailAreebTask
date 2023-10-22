@@ -6,7 +6,7 @@
 //
 
 import Foundation
-protocol GetRepositryProtocol{
-    static func repositryfetchData(url : String?,handlerComplition : @escaping (Repos?)->Void)
+protocol RepositryProtocol{
+    static func repositryfetchData(url : String?,handlerComplition : @escaping ([Repos]?)->Void)
    
 }
